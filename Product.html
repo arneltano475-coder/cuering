@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Product</title>
+    <style>
+        body {
+            background-color: #f2f2f2;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .product {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            width: 100%;
+            margin: 50px auto;
+        }
+
+        .card {
+            width: 220px;
+            padding: 15px;
+            background-color: blanchedalmond;
+            border: 2px solid black;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 5px 15px gray;
+        }
+
+        .card img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .card h2 {
+            font-size: 22px;
+            color: black;
+        }
+
+        .card button {
+            background-color: blue;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .card button:hover {
+            opacity: 0.7;
+        }
+
+        .price {
+            font-size: 20px;
+            color: #556;
+        }
+
+        h1 {
+            text-align: center;
+            color: #1e3a8a;
+            margin-bottom: 30px;
+        }
+
+        .title-box {
+            width: 500px;
+            max-width: 80%;
+            margin: 30px auto;
+            padding: 15px;
+            background-color: bisque;
+            border: 2px solid #1e3a8a;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 5px 10px gray;
+        }
+
+        a {
+            text-decoration: none;
+            display: inline-block;
+            padding: 8px 16px;
+        }
+
+        a:hover {
+            background-color: white;
+            color: black;
+        }
+
+        .previous {
+            background-color: #f1f1f1;
+            color: black;
+            border-radius: 26px;
+        }
+
+        @media (max-width: 600px) {
+            .title-box {
+                width: auto;
+            }
+
+            .card {
+                width: 220px;
+                max-width: 80%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <a href="home.html" class="previous">&laquo; Previous</a>
+
+    <div class="title-box">
+        <h1>All My Products</h1>
+    </div>
+
+    <div class="product">
+
+        <!-- Product 1 -->
+        <div class="card">
+            <img src="ralp.webp" alt="Royal Classic Polo">
+            <h2>Royal Classic Polo</h2>
+            <p class="price">$9000</p>
+            <p>Comfortable and stylish, perfect for everyday wear and casual occasions.</p>
+            <p><button>Add to Cart</button></p>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="card">
+            <img src="lauren5.webp" alt="Pure White Polo">
+            <h2>Pure White Polo</h2>
+            <p class="price">$300</p>
+            <p>A classic and elegant polo designed to give you a comfortable and confident look.</p>
+            <p><button>Add to Cart</button></p>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="card">
+            <img src="clothe.jpg" alt="Classic Comfort Polo">
+            <h2>Classic Comfort Polo</h2>
+            <p class="price">$600</p>
+            <p>Simple yet fashionable, perfect for creating a clean and stylish everyday outfit.</p>
+            <p><button>Add to Cart</button></p>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="card">
+            <img src="Lauren1.jpg" alt="Premium Casual Polo">
+            <h2>Premium Casual Polo</h2>
+            <p class="price">$1200</p>
+            <p>Comfortable, lightweight, and easy to match with your favorite pants or shorts.</p>
+            <p><button>Add to Cart</button></p>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="card">
+            <img src="lauren2.jpg" alt="Urban Contrast Polo">
+            <h2>Urban Contrast Polo</h2>
+            <p class="price">$700</p>
+            <p>A stylish and versatile polo perfect for casual days and everyday activities.</p>
+            <p><button>Add to Cart</button></p>
+        </div>
+
+        <!-- Product 6 -->
+        <div class="card">
+            <img src="lau6.webp" alt="Blue Heritage Polo">
+            <h2>Blue Heritage Polo</h2>
+            <p class="price">$500</p>
+            <p>Comfortable, stylish, and perfect for everyday wear.</p>
+            <p><button>Add to Cart</button></p>
+        </div>
+
+        <!-- Product 7 -->
+        <div class="card">
+            <img src="1.jpg" alt="Blown Classic ">
+            <h2>Black Classic Polo</h2>
+            <p class="price">$850</p>
+            <p>A timeless brown that gives you a smart and fashionable appearance.</p>
+            <p><button>Add to Cart</button></p>
+        </div>
+
+        <!-- Product 8 -->
+        <div class="card">
+            <img src="2.jpg" alt="Snow White Polo">
+            <h2>Snow White Polo</h2>
+            <p class="price">$450</p>
+            <p>A fresh white polo that is easy to pair with jeans, trousers, or shorts.</p>
+            <p><button>Add to Cart</button></p>
+        </div>
+
+        <!-- Product 9 -->
+        <div class="card">
+            <img src="3.jpg" alt="Everyday Essential Polo">
+            <h2>Everyday Essential Polo</h2>
+            <p class="price">$550</p>
+            <p>An everyday essential with a simple design and a comfortable fit.</p>
+            <p><button>Add to Cart</button></p>
+        </div>
+
+        <!-- Product 10 -->
+        <div class="card">
+            <img src="4.jpg" alt="Luxury Fit Polo">
+            <h2>Luxury Fit Polo</h2>
+            <p class="price">$1500</p>
+            <p>A premium-looking polo for people who love a clean and elegant style.</p>
+            <p><button>Add to Cart</button></p>
+        </div>
+
+        <!-- Product 11 -->
+        <div class="card">
+            <img src="7.jpg" alt="Red Sport Polo">
+            <h2>Red Sport Polo</h2>
+            <p class="price">$650</p>
+            <p>A bold and sporty polo for casual outings and weekend adventures.</p>
+            <p><button>Add to Cart</button></p>
+        </div>
+
+        <!-- Product 12 -->
+        <div class="card">
+            <img src="8.jpg" alt="Navy Blue Polo">
+            <h2>Navy Blue Polo</h2>
+            <p class="price">$750</p>
+            <p>A versatile navy polo that works well with many different outfits.</p>
+            <p><button>Add to Cart</button></p>
+        </div>
+
+        <!-- Product 13 -->
+        <div class="card">
+            <img src="9.jpg" alt="Classic Striped Polo">
+            <h2>Classic Striped Polo</h2>
+            <p class="price">$950</p>
+            <p>A classic-inspired style for a fashionable and relaxed look.</p>
+            <p><button>Add to Cart</button></p>
+        </div>
+
+        <!-- Product 14 -->
+        <div class="card">
+            <img src="6.jpg" alt="Soft Cotton Polo">
+            <h2>Soft Cotton Polo</h2>
+            <p class="price">$800</p>
+            <p>A simple cotton-style polo designed for a comfortable daily outfit.</p>
+            <p><button>Add to Cart</button></p>
+        </div>
+
+       
+    </div>
+
+</body>
+</html>

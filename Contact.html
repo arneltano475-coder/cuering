@@ -1,0 +1,91 @@
+<html>
+<head>
+    <title>Contact</title>
+</head>
+<style>
+body{
+    background:linear-gradient(135deg,#141e30,#6A11CB)
+}
+            /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  text-align: center;
+  width: 80%; 
+  padding: 12px; 
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px;
+  margin-bottom: 16px; 
+  resize: vertical;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 37px;
+  width:70%;
+  max-width: 7700px;
+  background-color: #f2f2f2;
+  padding: 30px;
+  color:white;
+   background:linear-gradient(135deg,#3b63ad,#6A11CB);
+   margin:50px auto;
+   
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+a:hover {
+  background-color: white;
+  color: black;
+}
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+  border-radius: 26px;
+}
+ </style>
+        </head>
+        <body>
+          <a href="home.html" class="previous">&laquo; Previous</a>
+            <div class="container">
+  <form action="action_page.php">
+
+  <center> <label for="fname">First Name</label><br>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+   <br><label for="lname">Last Name</label><br>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+   <br> <label for="Barangay">Barangay</label><br>
+    <select id="country" name="Barangay">
+      <option value="Bag-ong Oslob">Bag-ong Oslob</option>
+      <option value="Lantungan">Lantungan</option>
+      <option value="Lubid">Lubid</option><br>
+    </select>
+    <br><label for="subject">Subject</label><br>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea> </center>
+
+  <center><input type="submit" value="Submit"></center>
+
+  </form>
+</div>
+ </body>
